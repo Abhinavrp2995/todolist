@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 function Todo() {
-  const [tasks, setTasks] = useState(["Good morning", "How are you?", "Are you fine?"]);
+  const [tasks, setTasks] = useState(["Men Be Men "]);
   const [newTask, setNewTask] = useState("");
 
   function handleInputChange(event) {
